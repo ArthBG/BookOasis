@@ -18,12 +18,14 @@ export default function Home() {
      <div className={styles.container}>
       <div className={styles.containerProducts}>
         <div className={styles.portrait}>
+          <div className={styles.bookimage}>
           <Image
             src="/images/book.jpg"
             alt="Picture of the author"
             width={500}
             height={500}
           />
+          </div>
           <div className={styles.bookinfos}>
             <h1 className={styles.title}>Nome do livro</h1>
             <p className={styles.author}>Autor</p>

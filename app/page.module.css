@@ -13,10 +13,15 @@
   align-items: center;
 }
 .portrait{
-  width: 200px;
-  height: 250px;
+  width: 230px;
+  height: 350px;
   background-color: #f2f2f2;
   border: #4f5256 solid 2px;
   border-radius: 5px;
+}
+.bookimage{
+  background-color: #4f5256;
+  height: 200px;
+
 }
 
