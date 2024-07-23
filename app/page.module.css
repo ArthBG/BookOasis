@@ -12,4 +12,11 @@
   justify-content: center;
   align-items: center;
 }
+.portrait{
+  width: 200px;
+  height: 250px;
+  background-color: #f2f2f2;
+  border: #4f5256 solid 2px;
+  border-radius: 5px;
+}
 
