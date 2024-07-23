@@ -12,9 +12,16 @@
   justify-content: center;
   align-items: center;
 }
+.containerProducts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 .portrait{
-  width: 230px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   background-color: #f2f2f2;
   border: #4f5256 solid 2px;
   border-radius: 5px;
@@ -23,5 +30,30 @@
   background-color: #4f5256;
   height: 200px;
 
+}
+.bookinfos{
+  margin-left: 5px;
+}
+.title{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: justify;
+}
+.author{
+  color: #4f5256;
+  font-size: 15px;
+  font-weight: 350;
+  text-align: justify;
+}
+.prices{
+  color: #262a2e;
+  font-size: 17px;
+  font-weight: 500;
+}
+.ratings{
+  color: #262a2e;
+  font-size: 15px;
+  font-weight: 350;
 }
 

@@ -32,9 +32,9 @@ export default function Home() {
             <div className={styles.prices}>
               <p className={styles.price}>R$ 100,00</p>
             </div>          
-            </div>
             <div className={styles.ratings}>
               <p>5,0⭐</p>
+            </div>
             </div>
         </div>
       </div>
